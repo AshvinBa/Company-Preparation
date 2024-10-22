@@ -41,6 +41,7 @@ using namespace std;
 class Solution
 {
     public:
+    
     /*
     1) TLE Solution.
     int f(int i,int j)
@@ -87,8 +88,7 @@ class Solution
     */
     
     /*
-    3)
-    
+    3) 
     int NumberOfPath(int a, int b)
     {
         int dp[a][b];
@@ -136,5 +136,5 @@ int main()
         cin>>a>>b;
         Solution ob;
         cout << ob.NumberOfPath(a,b) << endl;
-    
+        return 0;
 }

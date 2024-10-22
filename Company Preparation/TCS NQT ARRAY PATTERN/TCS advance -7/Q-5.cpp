@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+// Push zeros at the last of the Arrays.
+
 /*
 vector<int> pushIntoTheRap(vector<int>arr,int n)
 {
